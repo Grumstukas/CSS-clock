@@ -1,0 +1,832 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+.data{
+    display: inline-block;
+    width: 900px;
+    height: 300px;
+    background-color: cadetblue;
+}
+    .dalis{
+        display: inline-block;
+        float: left;
+        width: 200px;
+        height: 303px;
+        border: 1px solid black;
+    }
+    .dienos{
+        width: 300px;
+    }
+        .skaicius{
+            display: inline-block;
+            position: relative;
+            float: left;
+            width: 99px;
+            height: 300px;
+            background-color: coral;
+            font-size: 200px;
+            line-height: 100px;
+            
+        }
+            .skaic{
+                display: inline-block;
+                position: absolute;
+                float: left;
+                width: 99px;
+                height: 300px;
+                background-color: rgb(80, 170, 255);
+                text-align: center;
+                padding: 90px 0px;
+            }
+                        /* dienos skaičius 1 */
+                .dienos > .skaicius > .s1_sk0{
+                    z-index: 1;
+                }
+                .dienos > .skaicius > .s1_sk1{
+                    z-index: 2;
+                }
+                .dienos > .skaicius > .s1_sk2{
+                    z-index: 3;
+                }
+                .dienos > .skaicius > .s1_sk3{
+                    z-index: 4;
+                }
+                .dienos > .skaicius > .s1_sk4{
+                    z-index: 5;
+                }
+                .dienos > .skaicius > .s1_sk5{
+                    z-index: 6;
+                }
+                .dienos > .skaicius > .s1_sk6{
+                    z-index: 7;
+                }
+                .dienos > .skaicius > .s1_sk7{
+                    z-index: 8;
+                }
+                .dienos > .skaicius > .s1_sk8{
+                    z-index: 9;
+                }
+                .dienos > .skaicius > .s1_sk9{
+                    z-index: 10;
+                }
+
+                    /* dienos skaičius 2 */
+                .dienos > .skaicius > .s2_sk0{
+                    z-index: 1;
+                }
+                .dienos > .skaicius > .s2_sk1{
+                    z-index: 2;
+                }
+                .dienos > .skaicius > .s2_sk2{
+                    z-index: 3;
+                }
+                .dienos > .skaicius > .s2_sk3{
+                    z-index: 4;
+                }
+                .dienos > .skaicius > .s2_sk4{
+                    z-index: 5;
+                }
+                .dienos > .skaicius > .s2_sk5{
+                    z-index: 6;
+                }
+                .dienos > .skaicius > .s2_sk6{
+                    z-index: 7;
+                }
+                .dienos > .skaicius > .s2_sk7{
+                    z-index: 8;
+                }
+                .dienos > .skaicius > .s2_sk8{
+                    z-index: 9;
+                }
+                .dienos > .skaicius > .s2_sk9{
+                    z-index: 10;
+                }
+
+                    /* dienos skaičius 3 */
+                .dienos > .skaicius > .s3_sk0{
+                    z-index: 11;
+                }
+                .dienos > .skaicius > .s3_sk1{
+                    z-index: 2;
+                }
+                .dienos > .skaicius > .s3_sk2{
+                    z-index: 3;
+                }
+                .dienos > .skaicius > .s3_sk3{
+                    z-index: 4;
+                }
+                .dienos > .skaicius > .s3_sk4{
+                    z-index: 5;
+                }
+                .dienos > .skaicius > .s3_sk5{
+                    z-index: 6;
+                }
+                .dienos > .skaicius > .s3_sk6{
+                    z-index: 7;
+                }
+                .dienos > .skaicius > .s3_sk7{
+                    z-index: 8;
+                }
+                .dienos > .skaicius > .s3_sk8{
+                    z-index: 9;
+                }
+                .dienos > .skaicius > .s3_sk9{
+                    z-index: 10;
+                }
+
+                /* valandos skaičius 1 */
+                .valandos > .skaicius > .s4_sk0{
+                    z-index: 11;
+                }
+                .valandos > .skaicius > .s4_sk1{
+                    z-index: 2;
+                }
+                .valandos > .skaicius > .s4_sk2{
+                    z-index: 3;
+                }
+
+                /* valandos skaičius 2 */
+                .valandos > .skaicius > .s5_sk0{
+                    z-index: 11;
+                }
+                .valandos > .skaicius > .s5_sk1{
+                    z-index: 2;
+                }
+                .valandos > .skaicius > .s5_sk2{
+                    z-index: 3;
+                }
+                .valandos > .skaicius > .s5_sk3{
+                    z-index: 4;
+                }
+                .valandos > .skaicius > .s5_sk4{
+                    z-index: 5;
+                }
+                .valandos > .skaicius > .s5_sk5{
+                    z-index: 6;
+                }
+                .valandos > .skaicius > .s5_sk6{
+                    z-index: 7;
+                }
+                .valandos > .skaicius > .s5_sk7{
+                    z-index: 8;
+                }
+                .valandos > .skaicius > .s5_sk8{
+                    z-index: 9;
+                }
+                .valandos > .skaicius > .s5_sk9{
+                    z-index: 10;
+                }
+
+                /* minutes skaičius 1 */
+                .minutes > .skaicius > .s6_sk0{
+                    z-index: 11;
+                }
+                .minutes > .skaicius > .s6_sk1{
+                    z-index: 2;
+                }
+                .minutes > .skaicius > .s6_sk2{
+                    z-index: 3;
+                }
+                .minutes > .skaicius > .s6_sk3{
+                    z-index: 4;
+                }
+                .minutes > .skaicius > .s6_sk4{
+                    z-index: 5;
+                }
+                .minutes > .skaicius > .s6_sk5{
+                    z-index: 6;
+                }
+                .minutes > .skaicius > .s6_sk6{
+                    z-index: 7;
+                }
+                .minutes > .skaicius > .s6_sk7{
+                    z-index: 8;
+                }
+                .minutes > .skaicius > .s6_sk8{
+                    z-index: 9;
+                }
+                .minutes > .skaicius > .s6_sk9{
+                    z-index: 10;
+                }
+
+                /* minutes skaičius 2 */
+                .minutes > .skaicius > .s7_sk0{
+                    z-index: 11;
+                }
+                .minutes > .skaicius > .s7_sk1{
+                    z-index: 2;
+                }
+                .minutes > .skaicius > .s7_sk2{
+                    z-index: 3;
+                }
+                .minutes > .skaicius > .s7_sk3{
+                    z-index: 4;
+                }
+                .minutes > .skaicius > .s7_sk4{
+                    z-index: 5;
+                }
+                .minutes > .skaicius > .s7_sk5{
+                    z-index: 6;
+                }
+
+
+                /* sekundes skaičius 1 */
+                .sekundes > .skaicius > .s8_sk0{
+                    animation-name: sekunde-s8_sk0;
+                    animation-duration: 60s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s8_sk1{
+                    animation-name: sekunde-s8_sk1;
+                    animation-duration: 60s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s8_sk2{
+                    animation-name: sekunde-s8_sk2;
+                    animation-duration: 60s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s8_sk3{
+                    animation-name: sekunde-s8_sk3;
+                    animation-duration: 60s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s8_sk4{
+                    animation-name: sekunde-s8_sk4;
+                    animation-duration: 60s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s8_sk5{
+                    animation-name: sekunde-s8_sk5;
+                    animation-duration: 60s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                @keyframes sekunde-s8_sk0{
+                    0%{
+                        z-index: 1;
+                    }
+                    16.67% {
+                        z-index: 0;
+                    }
+                    33.33% {
+                        z-index: 0;
+                    }
+                    50% {
+                        z-index: 0;
+                    }
+                    66.67%{
+                        z-index: 0;
+                    }
+                    83.33%{
+                        z-index: 0;
+                    }
+                    100% {
+                        z-index: 1;
+                    }
+                }
+
+                @keyframes sekunde-s8_sk1{
+                    0%{
+                        z-index: 0;
+                    }
+                    16.67% {
+                        z-index: 1;
+                    }
+                    33.33% {
+                        z-index: 0;
+                    }
+                    50% {
+                        z-index: 0;
+                    }
+                    66.67%{
+                        z-index: 0;
+                    }
+                    83.33%{
+                        z-index: 0;
+                    }
+                    100% {
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s8_sk2{
+                    0%{
+                        z-index: 0;
+                    }
+                    16.67% {
+                        z-index: 0;
+                    }
+                    33.33% {
+                        z-index: 1;
+                    }
+                    50% {
+                        z-index: 0;
+                    }
+                    66.67%{
+                        z-index: 0;
+                    }
+                    83.33%{
+                        z-index: 0;
+                    }
+                    100% {
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s8_sk3{
+                    0%{
+                        z-index: 0;
+                    }
+                    16.67% {
+                        z-index: 0;
+                    }
+                    33.33% {
+                        z-index: 0;
+                    }
+                    50% {
+                        z-index: 1;
+                    }
+                    66.67%{
+                        z-index: 0;
+                    }
+                    83.33%{
+                        z-index: 0;
+                    }
+                    100% {
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s8_sk4{
+                    0%{
+                        z-index: 0;
+                    }
+                    16.67% {
+                        z-index: 0;
+                    }
+                    33.33% {
+                        z-index: 0;
+                    }
+                    50% {
+                        z-index: 0;
+                    }
+                    66.67%{
+                        z-index: 1;
+                    }
+                    83.33%{
+                        z-index: 0;
+                    }
+                    100% {
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s8_sk5{
+                    0%{
+                        z-index: 0;
+                    }
+                    16.67% {
+                        z-index: 0;
+                    }
+                    33.33% {
+                        z-index: 0;
+                    }
+                    50% {
+                        z-index: 0;
+                    }
+                    66.67%{
+                        z-index: 0;
+                    }
+                    83.33%{
+                        z-index: 1;
+                    }
+                    100% {
+                        z-index: 0;
+                    }
+                }
+
+
+
+
+
+
+
+                /* sekundes skaičius 2 */
+                .sekundes > .skaicius > .s9_sk0{
+                    animation-name: sekunde-s9_sk0;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk1{
+                    animation-name: sekunde-s9_sk1;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk2{
+                    animation-name: sekunde-s9_sk2;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk3{
+                    animation-name: sekunde-s9_sk3;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk4{
+                    animation-name: sekunde-s9_sk4;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk5{
+                    animation-name: sekunde-s9_sk5;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk6{
+                    animation-name: sekunde-s9_sk6;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk7{
+                    animation-name: sekunde-s9_sk7;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk8{
+                    animation-name: sekunde-s9_sk8;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+                .sekundes > .skaicius > .s9_sk9{
+                    animation-name: sekunde-s9_sk9;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    z-index: 0;
+                }
+
+                @keyframes sekunde-s9_sk0{
+                    0%{
+                        z-index: 1;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 1;
+                    }
+                }
+                @keyframes sekunde-s9_sk1{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 1;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk2{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 1;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk3{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 1;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk4{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 1;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk5{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 1;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk6{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 1;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk7{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 1;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk8{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 1;
+                    }
+                    90%{
+                        z-index: 0;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }
+                @keyframes sekunde-s9_sk9{
+                    0%{
+                        z-index: 0;
+                    }
+                    10%{
+                        z-index: 0;
+                    }
+                    20%{
+                        z-index: 0;
+                    }
+                    30%{
+                        z-index: 0;
+                    }
+                    40%{
+                        z-index: 0;
+                    }
+                    50%{
+                        z-index: 0;
+                    }
+                    60%{
+                        z-index: 0;
+                    }
+                    70%{
+                        z-index: 0;
+                    }
+                    80%{
+                        z-index: 0;
+                    }
+                    90%{
+                        z-index: 1;
+                    }
+                    100%{
+                        z-index: 0;
+                    }
+                }

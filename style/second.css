@@ -1,0 +1,690 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+.sekundes{
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    padding: 50px;
+    background-color: aquamarine;
+}
+.number_01{
+    display: inline-block;
+    float: right;
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+    .fonas{
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        border-top: 40px solid;
+        border-right: 40px solid;
+        border-bottom: 40px solid;
+        border-left: 40px solid;
+        display: inline-block;
+    }
+        .sekundes > .number_01 > .top{
+            border-top: 40px solid sienna;
+            border-right: 40px solid rgb(55, 160, 45);
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid rgb(150, 45, 160);
+            animation-name: sekunde-01-top;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes sekunde-01-top{
+            0%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            1%{/* 0 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            10%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            11%{  /* 1 */
+                border-top: 40px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 10px 10px 10px;
+            }
+            20%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            21%{ /* 2 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 40px 40px 0px 0px;
+            }
+            30%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            31%{ /* 3 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 40px 40px 15px 10px;
+            }
+            40%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            41%{ /* 4 */
+                border-top: 40px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            50%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            51%{ /* 5 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            60%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            61%{ /* 6 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            70%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            71%{ /* 7 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 40px 40px 15px 10px;
+            }
+            80%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            81%{ /* 8 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            90%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            91%{ /* 9 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            100%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+        }
+        .sekundes > .number_01 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid rgb(55, 160, 45);
+            border-bottom: 40px solid rgb(45, 47, 160);
+            border-left: 40px solid rgb(150, 45, 160);
+            animation-name: sekunde-01-bottom;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes sekunde-01-bottom{
+            0%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            1%{ /* 0 */
+                border-top: 20px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 10px 15px 40px 40px;
+            }
+            10%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            11%{ /* 1 */
+                border-top: 20px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 10px 10px 10px;
+            }
+            20%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            21%{ /* 2 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 0px 0px 40px 40px;
+            }
+            30%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            31%{ /* 3 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            40%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            41%{ /* 4 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            50%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            51%{ /* 5 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            60%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            61%{ /* 6 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 10px 15px 40px 40px;
+            }
+            70%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            71%{ /* 7 */
+                border-top: 20px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            80%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            81%{ /* 8 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 10px 15px 40px 40px;
+            }
+            90%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            91%{ /* 9 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            100%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent; 
+            }
+        }
+.number_10{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    background-color: aquamarine;
+}
+    .sekundes > .number_10 > .top{
+        border-top: 40px solid sienna;
+        border-right: 40px solid rgb(55, 160, 45);
+        border-bottom: 20px solid crimson;
+        border-left: 40px solid rgb(150, 45, 160);
+        animation-name: sekunde-10-top;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+        @keyframes sekunde-10-top{
+            0%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            16.5%{/* 0 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            17.5%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            33%{  /* 1 */
+                border-top: 40px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 10px 10px 10px;
+            }
+            34%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            49.5%{ /* 2 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 40px 40px 0px 0px;
+            }
+            50.5%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            66%{ /* 3 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 40px 40px 15px 10px;
+            }
+            67%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            82.5%{ /* 4 */
+                border-top: 40px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            83.5%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            99%{ /* 5 */
+                border-top: 40px solid crimson;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 40px 40px 15px 10px;
+            }
+            100%{/* tuscia */
+                border-top: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 40px solid transparent;
+            }
+        }
+    .sekundes > .number_10 > .bottom{
+        border-top: 20px solid crimson;
+        border-right: 40px solid rgb(55, 160, 45);
+        border-bottom: 40px solid rgb(45, 47, 160);
+        border-left: 40px solid rgb(150, 45, 160);
+        animation-name: sekunde-10-bottom;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+        @keyframes sekunde-10-bottom{
+            0%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            16.5%{ /* 0 */
+                border-top: 20px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 10px 15px 40px 40px;
+            }
+            17.5%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            33%{ /* 1 */
+                border-top: 20px solid transparent;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 10px 10px 10px;
+            }
+            34%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            49.5%{ /* 2 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid crimson;
+                border-radius: 0px 0px 40px 40px;
+            }
+            50.5%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            66%{ /* 3 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            67%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            82.5%{ /* 4 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            83.5%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent;
+            }
+            99%{ /* 5 */
+                border-top: 20px solid crimson;
+                border-right: 40px solid crimson;
+                border-bottom: 40px solid crimson;
+                border-left: 40px solid transparent;
+                border-radius: 10px 15px 40px 40px;
+            }
+            100%{/* tuscia */
+                border-top: 20px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 40px solid transparent;
+                border-left: 40px solid transparent; 
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #number_1 > .top{
+            border-top: 40px solid transparent;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid transparent;
+            border-left: 40px solid transparent;
+            border-radius: 10px 10px 10px 10px;
+        }
+        #number_1 > .bottom{
+            border-top: 20px solid transparent;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid transparent;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        #number_2 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid transparent;
+            border-radius: 40px 40px 0px 0px;
+        }
+        #number_2 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid transparent;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 0px 0px 40px 40px;
+        }
+
+        #number_3 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid transparent;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_3 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid transparent;
+            border-radius: 10px 15px 40px 40px;
+        }
+
+        #number_4 > .top{
+            border-top: 40px solid transparent;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_4 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid transparent;
+            border-radius: 10px 15px 40px 40px;
+        }
+        #number_5 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid transparent;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_5 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid transparent;
+            border-radius: 10px 15px 40px 40px;
+        }
+        #number_6 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid transparent;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_6 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 10px 15px 40px 40px;
+        }
+        #number_7 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid transparent;
+            border-left: 40px solid transparent;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_7 > .bottom{
+            border-top: 20px solid transparent;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid transparent;
+            border-radius: 10px 15px 40px 40px;
+        }
+        #number_8 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_8 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 10px 15px 40px 40px;
+        }
+        #number_9 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_9 > .bottom{
+            border-top: 20px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid transparent;
+            border-radius: 10px 15px 40px 40px;
+        }
+        #number_0 > .top{
+            border-top: 40px solid crimson;
+            border-right: 40px solid crimson;
+            border-bottom: 20px solid transparent;
+            border-left: 40px solid crimson;
+            border-radius: 40px 40px 15px 10px;
+        }
+        #number_0 > .bottom{
+            border-top: 20px solid transparent;
+            border-right: 40px solid crimson;
+            border-bottom: 40px solid crimson;
+            border-left: 40px solid crimson;
+            border-radius: 10px 15px 40px 40px;
+        }
