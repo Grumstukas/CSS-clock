@@ -9,22 +9,12 @@ body * {
 .seconds,.minutes,.hours,.day{
     display: inline-block;
     float: left;
-    width: 200px;
     height: 100px;
     overflow: hidden;
     margin:0px 10px;
 }
-.day{
-    width: 75px;
-}
-.hours{
-    width: 50px;
-}
-.minutes{
-    width: 50px;
-}
-.seconds{
-    width: 50px;
+.num{
+    width: 100px;
 }
 
     .sec-1, .sec-10,.min-1,.min-10,.val,.d1,.d2,.d3{
